@@ -1,0 +1,11 @@
+{
+  "basic_auth": false,
+  "clean_urls": true,
+  "https_only": true,
+  "root": "./dist",
+  "routes": {
+    "/assets/*": "/assets/",
+    "/**": "index.html",
+    "/**/*.html": "index.html"
+  }
+}
